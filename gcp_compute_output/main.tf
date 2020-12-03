@@ -37,3 +37,5 @@ resource "google_compute_instance" "default" {
 output "ip" {
  value = google_compute_instance.default.network_interface.0.access_config.0.nat_ip
 }
+
+# Modified [main.tf] on [2020-12-03 22:55:38.607856]
